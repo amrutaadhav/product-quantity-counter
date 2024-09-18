@@ -4,3 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Quantity Counter</title>
+<link rel="stylesheet"href="style.css">
+<body>
+    <div class="product-card">
+        <image src="jeemainbook.webp" class="product-image"></image>
+        <div class="btn-container">
+            <img src="minus.png" class="btn-quantity" onclick="handlequantitychange('dec')"/>
+             <span id="quantity-text">1</span> 
+            <img src="plus.png" class="btn-quantity" onclick="handlequantitychange('inc')"/>
+        </div>
+
+        <button class="buy-btn">
+            Buy Now
+        </button>
